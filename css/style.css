@@ -352,7 +352,6 @@ textarea {
 @font-face {
   font-family: 'monultra-light';
   src: url("../fonts/montserrat-ultralight-webfont.woff2") format("woff2"), url("../fonts/montserrat-ultralight-webfont.woff") format("woff"), url("../fonts/montserrat-ultralight-webfont.ttf") format("truetype");
-  src: url("https://github.com/Egor-Alexandrovich/egor-alexandrovich.github.io/tree/master/fonts/montserrat-ultralight-webfont.ttf");
    font-weight: normal;
   font-style: normal; }
 
