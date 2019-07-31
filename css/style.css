@@ -1249,16 +1249,13 @@ nav a:hover {
       width: 21px;
       height: 21px;
       background-image: url("../img/arrows.png"); }
-  .tabs .act {
-    position: relative;
-    z-index: 5;
-    border: 2px solid #c7b299;
-    border-radius: 5px 0 0 5px;
-    background-color: #8c8c8c; }
+  .tabs .act::before {
+    content: '';
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background-image: url("../img/arrows2.png"); }
   .tabs .tab-content {
-    position: relative;
-    z-index: 1;
-    left: -2px;
     width: 90%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -1266,8 +1263,6 @@ nav a:hover {
     font-size: 16px;
     line-height: 32px;
     color: #8c8c8c;
-    border: 2px solid #c7b299;
-    border-radius: 5px;
     padding: 0 10px; }
   .tabs .hide {
     display: none; }
