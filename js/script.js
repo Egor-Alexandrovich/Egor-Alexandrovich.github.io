@@ -95,9 +95,17 @@ $(document).ready(function(){
               }
             },
             {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    arrows: false,
+                }
+              },
+            {
               breakpoint: 576,
               settings: {
                 slidesToShow: 1,
+                arrows: false,
               }
             }]
     });
@@ -113,17 +121,6 @@ $(document).ready(function(){
      });
   });
 // сортировка по галерее
-/*gallery.onclick = function(event) {
-    if (event.target.classList.contains('active')) {
-    }
-    else {
-        for ( j = 0; j < gallery.childElementCount; j++ ){
-            if (gallery.children[j].classList.contains('active')) {
-                gallery.children[j].classList.remove('active')
-            }
-        }
-    event.target.classList.add('active')}
-}*/
 var selected
 gallery.onclick = function(event) {
     var target = event.target;
@@ -172,20 +169,12 @@ galleryContent.onclick = function(event) {
         icon.classList.add('hide');
         document.body.style.overflow="visible"
      }
+     if (icon.tagName === 'IMG') {
+        console.log(icon.tagName)
+        icon.parentNode.classList.add('hide');
+        document.body.style.overflow="visible"
+     }
 }
-//galleryContent.onclick = function(event) {
-    //let loupe = event.target
-    //if (loupe.classList.contains('loupe')) {
-      // console.log(loupe)
-    //}
-//}
-
-
-
-  
-          
-
-
  // счетчики
  
 const count = document.querySelector('#counter')
@@ -210,7 +199,31 @@ window.onscroll = function() {
         br = false;
     } 
   }
+// Вкладки секции mobail
+const tabs = document.getElementById('tabs');
+tabs.onclick = function(event) {
+    let target = event.target;
+    if (target.classList.contains('act')) {
+    }
+    else {
+        for ( j = 0; j < target.parentNode.childElementCount; j++ ){
+            if (target.parentNode.children[j].classList.contains('act')) {
+                target.parentNode.children[j].classList.remove('act')
+                tabs.children[j+1].classList.add('hide')
+                tabs.children[j+1].classList.remove('active')
 
+            }
+        }
+        target.classList.add('act')
+        for ( j = 0; j < target.parentNode.childElementCount; j++ ){
+            if (target.parentNode.children[j].classList.contains('act')) {
+                tabs.children[j+1].classList.add('active')
+                tabs.children[j+1].classList.remove('hide')
+            }
+        }
+    }
+    
+}
 
  
  
