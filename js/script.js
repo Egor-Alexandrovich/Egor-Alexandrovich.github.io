@@ -1,13 +1,13 @@
-var checkbox = document.getElementById('checkbox')
-var cart = document.getElementById('cart')
-var menu = document.getElementById('menu')
-var search = document.getElementById('search')
-var searchIcon = document.getElementById('search-icon')
-var gallery = document.getElementById('all')
-var galleryContent = document.getElementById('gallery-content')
-var video = document.getElementById('video')
-var buttonVideo = document.getElementById('button-video')
-var counter = document.getElementById('counter')
+const checkbox = document.getElementById('checkbox')
+const cart = document.getElementById('cart')
+const menu = document.getElementById('menu')
+const search = document.getElementById('search')
+const searchIcon = document.getElementById('search-icon')
+const gallery = document.getElementById('all')
+const galleryContent = document.getElementById('gallery-content')
+const video = document.getElementById('video')
+const buttonVideo = document.getElementById('button-video')
+const counter = document.getElementById('counter')
 
 // Управление видео
 video.addEventListener("click", function () {
