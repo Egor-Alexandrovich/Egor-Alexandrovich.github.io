@@ -721,7 +721,7 @@ nav a:hover {
       color: #d3c1ad; }
 
 .slider-container .slick-dots {
-  bottom: 22%; }
+  bottom: 20px; }
 
 .slider-container .slick-dots li button {
   border-radius: 50%; }
