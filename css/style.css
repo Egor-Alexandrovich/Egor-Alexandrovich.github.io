@@ -542,7 +542,7 @@ nav a:hover {
     color: #8c8c8c; }
 
 .search-active {
-  width: 175px;
+  width: 180px;
   -webkit-transition: 1s;
   -o-transition: 1s;
   transition: 1s; }
