@@ -1242,7 +1242,8 @@ nav a:hover {
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
   .tabs .tab {
-    padding: 5px; }
+    padding: 5px;
+    cursor: pointer; }
     .tabs .tab::before {
       content: '';
       display: inline-block;
