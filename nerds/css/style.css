@@ -562,9 +562,8 @@ a {
     font-weight: bold;
     line-height: 45px;
 }
-.right_content span {
-    font-size: 22px;
-    vertical-align: text-top;
+.right_content sup {
+    font-size: 25px;
 }
 
 .regular_p {
