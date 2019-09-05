@@ -35,7 +35,9 @@ for ( let i = 0; i < wind.length; i++ ){
 const btn = document.getElementById('btn-form');
 const popup = document.getElementById('popup');
 const cross = document.getElementById('cross'); 
-btn.addEventListener('click', function(){
+const form = document.getElementById('form')
+form.addEventListener('submit', function(event){
+    event.preventDefault()
     popup.classList.remove('hide');
     document.body.style.overflow="hidden";   
 });
