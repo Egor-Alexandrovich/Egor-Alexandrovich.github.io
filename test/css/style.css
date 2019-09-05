@@ -294,6 +294,9 @@ header .container{
     top: 50%;
     transform: translate(-50%, -50%);
 }
+.popup svg {
+    cursor: pointer;
+}
 /* =============================section f5============================== */
 .calculator {
     padding-top: 70px;
