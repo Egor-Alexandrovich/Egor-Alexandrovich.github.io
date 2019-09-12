@@ -1,8 +1,8 @@
 # Egor Aleksandrovich # 
-## GGGG ##
-### nnnn ###
-* ##First Name##:*Yahor*
-* ## Last Name ##:Shulha
+## GGGG
+### nnnn
+* ## First Name:*Yahor*
+* ## Last Name:**Shulha**
 * Contact Info: alexandrovich2572@gmail.com, linkedin.com/in/yahor-shulha-b74264190.
 * Summary (your goal, wishes, reveal what is important for you, what do you want and why.
 Some kind of self-presentation. In case of lack of experience  Junior Developer sells his/her potential, his/her passion and ability to learn fast. You shouldn't think that everybody is going to teach you when you come to the workplace . Rather being a Junior means always
